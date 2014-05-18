@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com http://www.woltlab.com/XSD/maelstrom/clipboardAction.xsd">
+	<import>
+		<!-- posts -->
+		<action name="copyToExistingThread">
+			<actionclassname><![CDATA[wbb\system\clipboard\action\PostCopyClipboardAction]]></actionclassname>
+			<pages>
+				<page><![CDATA[wbb\page\ThreadPage]]></page>
+			</pages>
+		</action>
+		<action name="copyToNewThread">
+			<actionclassname><![CDATA[wbb\system\clipboard\action\PostCopyClipboardAction]]></actionclassname>
+			<pages>
+				<page><![CDATA[wbb\page\BoardPage]]></page>
+				<page><![CDATA[wbb\page\ThreadPage]]></page>
+			</pages>
+		</action>
+                
+                <!-- threads -->
+                <action name="copy">
+			<actionclassname><![CDATA[wbb\system\clipboard\action\ThreadCopyClipboardAction]]></actionclassname>
+			<pages>
+				<page><![CDATA[wbb\page\BoardPage]]></page>
+			</pages>
+		</action>
+	</import>
+</data>

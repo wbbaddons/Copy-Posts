@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<language xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com http://www.woltlab.com/XSD/maelstrom/language.xsd" languagecode="de">
+	<category name="tims.header">
+		<item name="tims.header.menu.bastelstube"><![CDATA[Tims Bastelstu.be]]></item>
+		<item name="tims.header.menu.products"><![CDATA[Produkte]]></item>
+		<item name="tims.header.menu.products.chat"><![CDATA[Tims Chat]]></item>
+		<item name="tims.header.menu.products.otu"><![CDATA[One-Time-Username]]></item>
+		<item name="tims.header.menu.products.twofa"><![CDATA[Tims 2-Wege-Authentifizierung]]></item>
+		<item name="tims.header.menu.products.tou"><![CDATA[Nutzungsbestimmungen]]></item>
+		<item name="tims.header.menu.products.hideDisliked"><![CDATA[Tims Negativ-Verstecker]]></item>
+		<item name="tims.header.menu.products.signer"><![CDATA[Signer]]></item>
+		<item name="tims.header.menu.products.qr"><![CDATA[QR]]></item>
+		<item name="tims.header.menu.products.nodePush"><![CDATA[nodePush]]></item>
+		<item name="tims.header.menu.products.jCounter"><![CDATA[jCounter]]></item>
+	</category>
+	
+	<category name="wcf.acp.index">
+		<item name="wcf.acp.index.system.software.timsVersion"><![CDATA[Tims Bastelstu.be-Version]]></item>
+	</category>
+	
+	<category name="wcf.page">
+		<item name="wcf.page.sitemap.product"><![CDATA[Produkte]]></item>
+	</category>
+	
+	<category name="wcf.dashboard">
+		<item name="wcf.dashboard.box.be.bastelstu.tims.welcome"><![CDATA[Willkommen!]]></item>
+		<item name="wcf.dashboard.box.be.bastelstu.tims.welcome.description"><![CDATA[<strong>Tims Bastelstu.be</strong> ist seit 2010 Ihre Anlaufstelle für <strong>hochqualitative</strong> Erweiterungen für Ihre Community. Und wenn Sie das noch nicht überzeugt hat, dann möchten wir Ihnen zwei weitere gute Gründe nennen, sich für eine Erweiterung aus unserer Manufaktur zu entscheiden – denn aller guten Dinge sind drei:
+		<ol class="nativeList" start="2">
+			<li><strong>Kostenlos:</strong> Alle Erweiterungen aus Tims Bastelstu.be werden kostenlos, unter einer Open-Source-Lizenz, angeboten</li>
+			<li><strong>Erfahrenes Team:</strong> Bei Problemen mit unseren Erweiterungen hilft Ihnen unser <a href="{link controller='Team'}{/link}">erfahrenes Entwicklerteam</a> gerne schnell und freundlich weiter</li>
+		</ol>]]></item>
+		<item name="wcf.dashboard.box.be.bastelstu.tims.products"><![CDATA[Produkte]]></item>
+	</category>
+	
+	<category name="tims.team">
+		<item name="tims.team.tim"><![CDATA[Tim ist, wie man unschwer erkennen kann, der Leiter von Tims Bastelstu.be. Der Münsterländer legte den Grundstein für das Projekt Anfang 2010, als er seinen selbstentwickelten Chat in die damalige WoltLab Community einstellte. Der Chat erfreute sich schnell großer Beliebtheit, sodass er im September desselben Jahres seine Bastelstu.be gründete, um dem erhöhten Ansturm gerecht zu werden. Im Laufe der Zeit machte er sich einen Namen innerhalb der „WBB-Szene“, sodass er heute Mitarbeiter bei der WoltLab® GmbH ist, ein Zeichen für die hohe Qualität seiner Erweiterungen.<br />
+Wenn Tim gerade nicht damit beschäftigt ist seine Erweiterungen für deine Community noch besser zu machen, dann findet man ihn entweder bei spannenden Informatik-Vorlesungen in der Universität, auf Metal-Konzerten oder im Zug, weil er mal wieder durch Deutschland unterwegs ist.]]></item>
+		<item name="tims.team.max"><![CDATA[Maximilian, bzw. Max ist, wie einige vielleicht schon wissen, seit dem vierten Quartal 2011 Tims bestbezahlter Mitarbeiter. Der Mann aus dem hohen Norden Deutschlands, bewegt sich seit Mitte 2009 im WoltLab'schen Software-Umfeld und hat Tim durch dieses kennengelernt. Als Tim den Entschluss fasste, seinen Chat für das WoltLab Community Framework 2 zu entwickeln, fragte er ihn, ob er mithelfen wolle; seitdem ist er offizieller Entwickler in Tims Bastelstu.be. Wenn Max seine Zeit nicht gerade in der Schule verbringt oder voller Freude seine Hausaufgaben erledigt, quasselt er sicher wieder mit Tim und programmiert an dem einen oder anderen Projekt oder er kämpft mit Problemen, wie sie eigentlich nur Frauen kennen, „aber ich hab’ doch nix zum Zocken!“.]]></item>
+		<item name="tims.team.jan"><![CDATA[Jan ist ein weiteres Teammitglied, er ist Schüler und beschäftigt sich in seiner Freizeit mit der Programmiersprache PHP. Er kommt aus dem schönen Hessen und ist Pünktlich zum Release von WBB 4 zur Bastelstu.be dazugestoßen.]]></item>
+		<item name="tims.team.josh"><![CDATA[Joshua bzw. Josh ist Schüler und beschäftigt sich, unter anderem in seiner Freizeit mit der Sprache PHP und dem entwickeln von Plugins für das Woltlab Community Framework. Er kommt ebendfalls aus dem schönen Münsterland und ist 2014 dem Team von Bastelstu.be beigetreten.]]></item>
+		<item name="tims.team.unknown"><![CDATA[Die Informationen über „{$user->username}“ wurden von einem Schaf aufgegessen, sag schnell bei Tim Bescheid!]]></item>
+	</category>
+	
+	<category name="tims.product">
+		<item name="tims.product.overview"><![CDATA[Produkte]]></item>
+		<item name="tims.product.screenshots"><![CDATA[Impressionen]]></item>
+		<item name="tims.product.download"><![CDATA[Herunterladen]]></item>
+		<item name="tims.product.demo"><![CDATA[Demo]]></item>
+		<item name="tims.product.support"><![CDATA[Support]]></item>
+		<item name="tims.product.versions"><![CDATA[Versionen]]></item>
+		<item name="tims.product.dependencies"><![CDATA[Abhängigkeiten]]></item>
+		<item name="tims.product.features"><![CDATA[Funktionen]]></item>
+		<item name="tims.product.learnMore"><![CDATA[Mehr erfahren!]]></item>
+		<item name="tims.product.license"><![CDATA[Lizenz]]></item>
+		<item name="tims.product.license.download"><![CDATA[Diese Erweiterung steht unter der {$license[name]}{if $license[url]|isset} <{$license[url]}>{/if}. Bitte bestätigen Sie, dass Sie mit den Bedingungen der {$license[name]} einverstanden sind um die Erweiterung herunterzuladen.]]></item>
+		
+		<!-- Tims Chat -->
+		<item name="tims.product.be.bastelstu.chat"><![CDATA[Tims Chat]]></item>
+		<item name="tims.product.be.bastelstu.chat.description"><![CDATA[Tims Chat ist ein leistungsfähiges Chatsystem für Ihre Community. Er überzeugt durch eine nahtlose Integration in das Design Ihrer Community, ein umfangreiches Rechtesystem, Funktionsreichtum und ist über die Templates kinderleicht zu verändern!]]></item>
+		<item name="tims.product.be.bastelstu.chat.application"><![CDATA[Die Macht einer Anwendung]]></item>
+		<item name="tims.product.be.bastelstu.chat.application.description"><![CDATA[Tims Chat ist eine eigenständige Anwendung für WoltLab® Community Framework™, das bietet Ihnen größtmögliche Freiheiten: Eine Community nur mit Chat? Kein Problem! Tims Chat auf einer anderen Domain laufen lassen? Ebenfalls kein Problem!]]></item>
+		<item name="tims.product.be.bastelstu.chat.advancedModeration"><![CDATA[Fortgeschrittene Moderation]]></item>
+		<item name="tims.product.be.bastelstu.chat.advancedModeration.description"><![CDATA[Tims Chat überzeugt durch eine fortgeschrittene Moderation, welche keine Wünsche offen läßt. So sind beispielsweise Nutzer in der Lage ihre selbst erstellten „Temporären Räume“ zu moderieren, ohne, dass dies Einfluss auf die voreingestellten Räume hätte. Oder aber Sie stellen einen Moderations-Lehrling ein, welcher nur Knebeln, aber keine Benutzer verbannen darf.<br />
+		Für den Fall, dass Ihre Moderatoren bei einem Regelverstoß nicht anwesend waren, können Sie in der Administrationsoberfläche das Nachrichten-Protokoll abrufen und die Nutzer im Nachhinein ermahnen.]]></item>
+		<item name="tims.product.be.bastelstu.chat.customizable"><![CDATA[Unglaublich wandelbar]]></item>
+		<item name="tims.product.be.bastelstu.chat.customizable.description"><![CDATA[Tims Chat setzt konsequent auf das bekannte Template-System zur Generierung der Ausgabe. So können Sie beispielsweise einfach das Layout der Nachrichten verändern, indem Sie das entsprechende Template in der Administrationsoberfläche bearbeiten, und das, obwohl die Nachrichten dynamisch erzeugt werden! Für Stilentwickler steht außerdem eine ganze Palette an Klassen zur Verfügung, mit denen einzelne Nachrichten individuell gestaltet werden können. Abwesenheitsnachrichten rot darstellen? Kein Problem!]]></item>
+		<item name="tims.product.be.bastelstu.chat.fast"><![CDATA[Ein flüssiges Chat-Erlebnis, auch mit vielen Nutzern!]]></item>
+		<item name="tims.product.be.bastelstu.chat.fast.description"><![CDATA[Bei der Entwicklung von Tims Chat wurde sehr auf die Optimierung der Nachrichtenverarbeitung geachtet, damit der Spaß am Chatten auch bei wachsender Community-Größe erhalten bleibt und die Nachrichten nicht erst mit mehreren Sekunden Verzögerung bei den Gesprächspartnern erscheinen.<br />
+		Sofern Sie Zugriff via SSH haben, können Sie <a href="{link controller='NodePush' application='tims'}{/link}">nodePush</a> einrichten, wodurch der Chatbetrieb noch flüssiger und gleichzeitig auch die Serverlast gesenkt wird.]]></item>
+		
+		<item name="tims.product.be.bastelstu.chat.screenshot.chat"><![CDATA[Tims Chat überzeugt durch eine aufgeräumte Oberfläche im Vollbild-Modus]]></item>
+		<item name="tims.product.be.bastelstu.chat.screenshot.privateChannel"><![CDATA[Bekannte Funktionen – wie das Flüstern – werden durch innovative Ideen verbessert: Private Kanäle sammeln alle Flüsternachrichten mit einem Benutzer ein, die anderen Nachrichten landen im allgemeinen Verlauf.]]></item>
+		<item name="tims.product.be.bastelstu.chat.screenshot.attachments"><![CDATA[Auch das Dateianhangs-System ist mit dabei!]]></item>
+		<item name="tims.product.be.bastelstu.chat.screenshot.roomselect"><![CDATA[Raumauswahl…]]></item>
+		<item name="tims.product.be.bastelstu.chat.screenshot.dashboard"><![CDATA[… und Dashboard zeigen eine Liste der Chatter und wenn nodePush aktiv ist, dann aktualisiert sich die Anzeige sogar in Echtzeit!]]></item>
+		<item name="tims.product.be.bastelstu.chat.screenshot.roomedit"><![CDATA[Räume können selbstverständlich mehrsprachig angelegt und die Rechte detailliert eingestellt werden.]]></item>
+		<item name="tims.product.be.bastelstu.chat.screenshot.suspensionlist"><![CDATA[Um ein entspanntes Chaterlebnis zu gewährleisten können Moderatoren Benutzer knebeln und verbannen…]]></item>
+		<item name="tims.product.be.bastelstu.chat.screenshot.protocol"><![CDATA[… und zur Überprüfung eines Verdachts ein vollständiges Nachrichtenprotokoll abrufen.]]></item>
+		<!-- / Tims Chat -->
+		
+		<!-- TwoFA -->
+		<item name="tims.product.be.bastelstu.wcf.twofa"><![CDATA[Tims 2-Wege-Authentifizierung]]></item>
+		<item name="tims.product.be.bastelstu.wcf.twofa.description"><![CDATA[Tims 2-Wege-Authentifizierung bietet einen zusätzlichen Schutz für die Benutzeraccounts Ihrer Mitglieder. Nach dem Login wird durch die Abfrage eines nur kurze Zeit gültigen Sicherheits-Codes sichergestellt, dass sich auch wirklich die richtige Person vor dem Bildschirm befindet!]]></item>
+		<item name="tims.product.be.bastelstu.wcf.twofa.rockSolid"><![CDATA[Sicher wie eine Festung…]]></item>
+		<item name="tims.product.be.bastelstu.wcf.twofa.rockSolid.description"><![CDATA[Tims 2-Wege-Authentifizierung wurde mit besonderem Augenmerk auf Sicherheit entwickelt, denn nichts ist schlimmer als eine Sicherheits-Erweiterung, welche nicht korrekt arbeitet. Aus diesem Grund werden bekannte und geprüfte Standards für die 2-Wege-Authentifizierung genutzt. Um automatisiertem Ausprobieren („Brute-Force“) zu entgehen, wird bei der Code-Eingabe die korrekte Eingabe des reCaptchas erzwungen, durch die Sperrung benutzter Codes werden „Replay-Attacken“ verhindert.]]></item>
+		<item name="tims.product.be.bastelstu.wcf.twofa.userFriendly"><![CDATA[… und dennoch benutzerfreundlich]]></item>
+		<item name="tims.product.be.bastelstu.wcf.twofa.userFriendly.description"><![CDATA[Damit die zusätzliche Sicherheit dem Benutzer nicht zur Last wird und dieser den Schutz daher womöglich deaktiviert, können Sie einstellen wie häufig ein Benutzer auf bekannten Geräten nach einem Code gefragt werden soll. Geräte, mit denen jemand Ihre Webseite besucht, werden mit Hilfe einer kleinen Textdatei („Cookie“) markiert und wiedererkannt. So bleibt die Sicherheit durch die 2-Wege-Authentifizierung bestehen und der Benutzer fühlt sich nicht genervt. Auf unbekannten Geräten wird selbstverständlich dennoch nach dem Code gefragt, der über verschiedene Wege generiert werden kann. ]]></item>
+		
+		<item name="tims.product.be.bastelstu.wcf.twofa.screenshot.accountmanagementdisabled"><![CDATA[Um einen ungeschützten Benutzeraccount abzusichern muss lediglich der Barcode gescannt und der aktuelle Code eingegeben werden…]]></item>
+		<item name="tims.product.be.bastelstu.wcf.twofa.screenshot.accountmanagementsuccess"><![CDATA[… und nach der erfolgreichen Aktivierung bekommt der Benutzer noch den Notfallcode mitgeteilt, welcher dazu dient den Account zu entsperren, falls das Smartphone unbrauchbar werden sollte.]]></item>
+		<item name="tims.product.be.bastelstu.wcf.twofa.screenshot.acptwofalogin"><![CDATA[… und natürlich auch in der Administrationsoberfläche!]]></item>
+		<item name="tims.product.be.bastelstu.wcf.twofa.screenshot.acptwofaloginfailed"><![CDATA[Mit einem falschen Code bleibt der Zugriff natürlich verwehrt…]]></item>
+		<item name="tims.product.be.bastelstu.wcf.twofa.screenshot.twofalogin"><![CDATA[Tims 2-Wege-Authentifizierung schützt den Benutzeraccount in der Benutzeroberfläche…]]></item>
+		<item name="tims.product.be.bastelstu.wcf.twofa.screenshot.twofaloginused"><![CDATA[… und auch verwendete Codes werden zuverlässig gesperrt!]]></item>
+		<item name="tims.product.be.bastelstu.wcf.twofa.screenshot.settings"><![CDATA[Die Einstellungen von Tims 2-Wege-Authentifizierung sind natürlich bei den Sicherheitseinstellungen zu finden!]]></item>
+		<!-- / TwoFA -->
+		
+		<!-- nodePush -->
+		<item name="tims.product.be.bastelstu.wcf.nodePush"><![CDATA[nodePush]]></item>
+		<item name="tims.product.be.bastelstu.wcf.nodePush.description"><![CDATA[nodePush stellt ein einfach zu verwendendes Push-Server-API zur Verfügung.]]></item>
+		<item name="tims.product.be.bastelstu.wcf.nodePush.realtime"><![CDATA[Push-Nachrichten in Echtzeit]]></item>
+		<item name="tims.product.be.bastelstu.wcf.nodePush.realtime.description"><![CDATA[nodePush sendet Nachrichten in Echtzeit über Websockets an alle verbundenen Benutzer. In weniger als einer halben Sekunde nach dem Senden ist die Nachricht an jeden verteilt.]]></item>
+		<item name="tims.product.be.bastelstu.wcf.nodePush.deadSimple"><![CDATA[Funktioniert fast wie von alleine]]></item>
+		<item name="tims.product.be.bastelstu.wcf.nodePush.deadSimple.description"><![CDATA[Das API von nodePush ist so entworfen worden, dass Sie sich um nichts kümmern müssen, Sie müssen einfach nur angeben welche Nachricht gesendet werden und was beim Empfangen dieser Nachricht passieren soll. Die gesamte Verbindung ist vollkommen transparent und wird von nodePush übernommen.]]></item>
+		<!-- / nodePush -->
+		
+		<!-- QR -->
+		<item name="tims.product.be.bastelstu.wcf.qr"><![CDATA[QR]]></item>
+		<item name="tims.product.be.bastelstu.wcf.qr.description"><![CDATA[QR erlaubt es, kinderleicht QR-Codes zu generieren und anzuzeigen, indem ein Templatemodifier zur Verfügung gestellt wird.]]></item>
+		<item name="tims.product.be.bastelstu.wcf.qr.templateModifier"><![CDATA[Templatemodifier]]></item>
+		<item name="tims.product.be.bastelstu.wcf.qr.templateModifier.description"><![CDATA[QR stellt einen Templatemodifier bereit, mit dem einfach QR-Codes erstellt werden können: {literal}<code class="inlineCode">{@"QR"|qr}</code>{/literal}. <a href="https://github.com/wbbaddons/QR/blob/master/file/lib/system/template/plugin/QrModifierTemplatePlugin.class.php#L6" class="externalURL">Detaillierte Informationen erhalten Sie im Code des Templatemodifiers</a>.]]></item>
+		<!-- / QR -->
+		
+		<!-- Signer -->
+		<item name="tims.product.be.bastelstu.wcf.signer"><![CDATA[Signer]]></item>
+		<item name="tims.product.be.bastelstu.wcf.signer.description"><![CDATA[Signer bietet Funktionen an, um Daten so zu signieren, dass diese durch einen Nutzer nicht manipuliert werden können (beispielsweise für Cookies).]]></item>
+		<item name="tims.product.be.bastelstu.wcf.signer.hmac"><![CDATA[Anerkannter Standard…]]></item>
+		<item name="tims.product.be.bastelstu.wcf.signer.hmac.description"><![CDATA[Signer verwendet das <a href="http://de.wikipedia.org/wiki/Keyed-Hash_Message_Authentication_Code" class="externalURL">SHA1-HMAC-Verfahren</a> und einen zufälligen Schlüssel, um die Daten zu signieren, durch die Verwendung eines anerkannten Standards wird sichergestellt, dass die Daten zuverlässig signiert sind.]]></item>
+		<item name="tims.product.be.bastelstu.wcf.signer.test"><![CDATA[… und vollständige Testabdeckung]]></item>
+		<item name="tims.product.be.bastelstu.wcf.signer.test.description"><![CDATA[Um sicherzustellen, dass die HMACs auch korrekt verwendet werden, wird Signer <a href="https://travis-ci.org/wbbaddons/Signer" class="externalURL">vollautomatisch</a> bei jeder Änderung gegen verschiedene Testfälle getestet, um sicherzustellen, dass die Sicherheit nicht verloren geht.]]></item>
+		<!-- / Signer -->
+		
+		<!-- jCounter -->
+		<item name="tims.product.be.bastelstu.max.wcf.jCounter"><![CDATA[jCounter]]></item>
+		<item name="tims.product.be.bastelstu.max.wcf.jCounter.description"><![CDATA[jCounter ist ein einfacher, sich an das Design Ihrer Community anpassender Zeichenzähler auf Basis von <a href="http://jquery.com/" class="externalURL">jQuery</a>.]]></item>
+		<item name="tims.product.be.bastelstu.max.wcf.jCounter.easy"><![CDATA[Einfach zu nutzen…]]></item>
+		<item name="tims.product.be.bastelstu.max.wcf.jCounter.easy.description"><![CDATA[Der jCounter kann mit einem einfachen Aufruf mit jedem Textfeld und jeder Textarea verwendet werden: <code class="inlineCode">$('.counter').jCounter()</code>]]></item>
+		<item name="tims.product.be.bastelstu.max.wcf.jCounter.fits"><![CDATA[… und passt ins Design]]></item>
+		<item name="tims.product.be.bastelstu.max.wcf.jCounter.fits.description"><![CDATA[Durch die Verwendung der <span class="badge blue">Badges</span> passt der jCounter in jedes Design.]]></item>
+		<!-- / jCounter -->
+		
+		<!-- OTU -->
+		<item name="tims.product.be.bastelstu.max.wcf.otu"><![CDATA[One-Time-Username]]></item>
+		<item name="tims.product.be.bastelstu.max.wcf.otu.description"><![CDATA[One-Time-Username ist die einfache Lösung, um Verwirrung in Ihrer Community zu verhindern, indem verwendete Benutzernamen, nach der Freigabe durch Umbenennung oder Löschung, automatisch gesperrt und nach einer konfigurierbaren Zeit entsperrt werden.]]></item>
+		<item name="tims.product.be.bastelstu.max.wcf.otu.zeroConfiguration"><![CDATA[Direkt einsatzbereit]]></item>
+		<item name="tims.product.be.bastelstu.max.wcf.otu.zeroConfiguration.description"><![CDATA[Nachdem One-Time-Username installiert wurde, ist es sofort im Einsatz und sperrt freiwerdende Benutzernamen. Sie müssen sich nicht erst durch tausende Einstellungen kämpfen.]]></item>
+		<item name="tims.product.be.bastelstu.max.wcf.otu.fullControl"><![CDATA[Volle Kontrolle]]></item>
+		<item name="tims.product.be.bastelstu.max.wcf.otu.fullControl.description"><![CDATA[Auch wenn One-Time-Username direkt einsatzbereit ist: Wenn Sie möchten, können Sie die Einstellungen selbstverständlich auf Ihre Community abstimmen. So ist es möglich den Sperrzeitraum frei zu wählen und Sie erhalten eine Übersicht über alle gesperrten Benutzernamen, inklusive Ablaufzeitpunkt!]]></item>
+		<item name="tims.product.be.bastelstu.max.wcf.otu.worksEverywhere"><![CDATA[Funktioniert überall]]></item>
+		<item name="tims.product.be.bastelstu.max.wcf.otu.worksEverywhere.description"><![CDATA[Egal auf welche Weise ein Name freigeben wird: One-Time-Username bekommt es mit. Sei es, weil ein Benutzer sich umbenennt, weil ein Benutzer gelöscht wurde oder auch weil eine andere Erweiterung einen Benutzer bearbeitet. Damit der Name auch wirklich überall gesperrt wird, benutzt One-Time-Username intern die eingebaute Funktion der Reservierten Namen.]]></item>
+		
+		<item name="tims.product.be.bastelstu.max.wcf.otu.screenshot.otulist"><![CDATA[Die Übersicht zeigt alle gesperrten Benutzernamen, den ehemaligen Besitzer, sowie das Ablaufdatum an und erlaubt es Namen zu entsperren.]]></item>
+		<!-- / OTU -->
+		
+		<!-- HideDisliked -->
+		<item name="tims.product.be.bastelstu.wcf.hideDisliked"><![CDATA[Tims Negativ-Verstecker]]></item>
+		<item name="tims.product.be.bastelstu.wcf.hideDisliked.description"><![CDATA[Tims Negativ-Verstecker macht negativ bewertete Inhalte durchsichtig um ihnen Aufmerksamkeit zu entziehen.]]></item>
+		<item name="tims.product.be.bastelstu.wcf.hideDisliked.worksEverywhere"><![CDATA[Funktioniert überall]]></item>
+		<item name="tims.product.be.bastelstu.wcf.hideDisliked.worksEverywhere.description"><![CDATA[Egal welcher Inhalt es ist: Tims Negativ-Verstecker versteckt ihn, wenn er schlecht ist. Das Plugin funktioniert bei Beiträgen, Kommentaren und sogar bei Plugins von Drittentwicklern!]]></item>
+		<!-- / HideDisliked -->
+		
+		<!-- TOU -->
+		<item name="tims.product.be.bastelstu.sascha.termsofuse"><![CDATA[Nutzungsbestimmungen]]></item>
+		<item name="tims.product.be.bastelstu.sascha.termsofuse.description"><![CDATA[Die Erweiterung „Nutzungsbestimmungen“ hilft Ihnen, das freundliche Zusammenleben in Ihrer Community zu erleichtern, indem es Ihnen erlaubt auf einfache Weise die von Ihnen gewünschten Regelungen anzuzeigen und die Zustimmung zu diesen sicherzustellen.]]></item>
+		<item name="tims.product.be.bastelstu.sascha.termsofuse.security"><![CDATA[Wasserdicht]]></item>
+		<item name="tims.product.be.bastelstu.sascha.termsofuse.security.description"><![CDATA[Die Erweiterung stellt sicher, dass die Benutzer den Bestimmungen auch wirklich zustimmen, indem vor der Registrierung und – auf Wunsch – nach Regeländerungen die Zustimmung zu den aktuellen Regelungen erfragt wird. Sollte ein Benutzer den neuen Bestimmungen nicht zustimmen, so kann er auf Wunsch automatisch deaktiviert, gesperrt oder zur Löschung markiert werden.]]></item>
+		
+		<item name="tims.product.be.bastelstu.sascha.termsofuse.screenshot.list"><![CDATA[Die Übersicht der Bestimmungen erlaubt es, selbige zu sortieren, sowie den Akzeptanzstatus zurückzusetzen.]]></item>
+		<item name="tims.product.be.bastelstu.sascha.termsofuse.screenshot.add"><![CDATA[Bestimmungen können selbstverständlich mehrsprachig angelegt werden.]]></item>
+		<item name="tims.product.be.bastelstu.sascha.termsofuse.screenshot.settings"><![CDATA[Wählen Sie verschiedene Aktionen bei Ablehnung aus und passen Sie das Erscheinungsbild Ihrer Bestimmungen an!]]></item>
+		<item name="tims.product.be.bastelstu.sascha.termsofuse.screenshot.register"><![CDATA[Die Nutzungsbestimmgen ersetzen den Disclaimer vor der Registrierung vollständig.]]></item>
+		<item name="tims.product.be.bastelstu.sascha.termsofuse.screenshot.reject"><![CDATA[Der Benutzer wird darüber informiert, was bei Ablehnung der Bestimmungen mit seinem Account geschieht.]]></item>
+		<!-- / TOU -->
+		
+		<item name="tims.product.com.woltlab.wcf"><![CDATA[WoltLab® Community Framework™]]></item>
+		<item name="tims.product.com.woltlab.wcf.description"><![CDATA[Erweiterungen für WoltLab® Community Framework™ sind für jede Community super geeignet!]]></item>
+		<item name="tims.product.com.woltlab.wbb"><![CDATA[WoltLab® Burning Board®]]></item>
+		<item name="tims.product.com.woltlab.wbb.description"><![CDATA[Erweiterungen für WoltLab® Burning Board® können in Communitys verwendet werden, welche Burning Board™ als Forensoftware einsetzen!]]></item>
+		<item name="tims.product.com.woltlab.blog"><![CDATA[WoltLab® Community Blog™]]></item>
+		<item name="tims.product.com.woltlab.blog.description"><![CDATA[Erweiterungen für WoltLab® Community Blog™ können in Communitys verwendet werden, welche WoltLab® Community Blog™ als Blogsoftware einsetzen!]]></item>
+		
+		<item name="tims.product.application.description"><![CDATA[Anwendungen bilden die Grundsteine Ihrer Community. Ohne Anwendungen gibt es nichts, was die Nutzer sehen würden!]]></item>
+		<item name="tims.product.developers"><![CDATA[Für Entwickler]]></item>
+		<item name="tims.product.developers.description"><![CDATA[Pakete, welche „Für Entwickler“ bestimmt sind, bewirken keine sichtbaren Veränderungen in deiner Community. Entwickler von anderen Erweiterungen können allerdings auf die Funktionen zurückgreifen, um ihre Erweiterungen zu verbessern!]]></item>
+	</category>
+</language>

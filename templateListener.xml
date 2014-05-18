@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com http://www.woltlab.com/XSD/maelstrom/templateListener.xsd">
+    <import>
+        <templatelistener name="copyPostsJS">
+            <environment>user</environment>
+            <templatename>headInclude</templatename>
+            <eventname>javascriptInclude</eventname>
+            <templatecode><![CDATA[<script data-relocate="true" src="{@$__wcf->getPath('wbb')}js/WBB.Copy{if !ENABLE_DEBUG_MODE}.min{/if}.js?v={@$__wcfVersion}"></script>]]></templatecode>
+        </templatelistener>
+                
+        <templatelistener name="copyPostsJSInit">
+            <environment>user</environment>
+            <templatename>headInclude</templatename>
+            <eventname>javascriptInit</eventname>
+            <templatecode><![CDATA[new WBB.Post.CopyClipboard({if $board|isset}{@$board->boardID}{else}0{/if}); 
+new WBB.Thread.CopyClipboard();
+
+WCF.Language.addObject({
+				'wbb.post.copyToNewThread': '{lang}wbb.post.copyToNewThread{/lang}'
+			});]]></templatecode>
+        </templatelistener>
+    </import>
+</data>
