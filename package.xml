@@ -5,13 +5,14 @@
 		<packagename language="de"><![CDATA[Beiträge kopieren]]></packagename>
 		<packagedescription><![CDATA[This package provides the option of posts and topics to copy in the forum.]]></packagedescription>
 		<packagedescription language="de"><![CDATA[Dieses Paket stellt die Möglichkeit zur Verfügung, Beiträge und Themen im Forum zu kopieren.]]></packagedescription>
-		<version>1.0.1</version>
+		<version>1.0.2</version>
 		<date>2014-11-10</date>
+                <license><![CDATA[GNU Lesser General Public License <http://opensource.org/licenses/lgpl-license.php>]]></license>
 	</packageinformation>
 	
 	<authorinformation>
 		<author><![CDATA[Joshua Rüsweg]]></author>
-		<authorurl><![CDATA[http://www.joshsboard.de/]]></authorurl>
+		<authorurl><![CDATA[http://tims.bastelstu.be/]]></authorurl>
 	</authorinformation>
 	
 	<requiredpackages>
@@ -29,5 +30,13 @@
             <instruction type="clipboardAction">clipboardAction.xml</instruction>
             <instruction type="templateListener">templateListener.xml</instruction>
             <instruction type="language">lang/*.xml</instruction>
+	</instructions>
+        
+        <instructions type="update" fromversion="1.0.0">
+		<instruction type="language">lang/*.xml</instruction>
+	</instructions>
+        
+        <instructions type="update" fromversion="1.0.1">
+		<instruction type="language">lang/*.xml</instruction>
 	</instructions>
 </package>
