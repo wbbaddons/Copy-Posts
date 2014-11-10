@@ -5,8 +5,8 @@
 		<packagename language="de"><![CDATA[Beiträge kopieren]]></packagename>
 		<packagedescription><![CDATA[This package provides the option of posts and topics to copy in the forum.]]></packagedescription>
 		<packagedescription language="de"><![CDATA[Dieses Paket stellt die Möglichkeit zur Verfügung, Beiträge und Themen im Forum zu kopieren.]]></packagedescription>
-		<version>1.0.0</version>
-		<date>2013-02-26</date>
+		<version>1.0.1</version>
+		<date>2014-11-10</date>
 	</packageinformation>
 	
 	<authorinformation>
@@ -19,6 +19,10 @@
                 <requiredpackage minversion="2.0.0">com.woltlab.wcf</requiredpackage>
 	</requiredpackages>
 	
+        <excludedpackages>
+		<excludedpackage version="4.1.0 Beta 1">com.woltlab.wbb</excludedpackage>
+	</excludedpackages>
+        
 	<instructions type="install">
             <instruction type="file" application="wbb">files.tar</instruction>
             <instruction type="template" application="wbb">templates.tar</instruction>
